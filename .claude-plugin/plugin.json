@@ -1,0 +1,9 @@
+{
+  "name": "vedats",
+  "version": "0.1.0",
+  "description": "VS Code Extension Debugging and Testing Skills (VEDATS)",
+  "author": {
+    "name": "OpenGameDesign"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "vscode-ui-test-skill",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run -w vscode-ui-test-harness build && npm run -w create-vscode-ui-test build"
+  }
+}

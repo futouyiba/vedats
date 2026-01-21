@@ -1,0 +1,21 @@
+{
+  "name": "create-vedats",
+  "version": "0.1.0",
+  "description": "Scaffold Workbench UI tests for VS Code extensions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futouyiba/vedats"
+  },
+  "bin": {
+    "create-vedats": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
