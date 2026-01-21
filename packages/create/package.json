@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/futouyiba/vedats"
+    "url": "git+https://github.com/futouyiba/vedats.git"
   },
   "bin": {
     "create-vedats": "dist/index.js"
