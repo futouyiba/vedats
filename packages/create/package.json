@@ -1,6 +1,6 @@
 {
   "name": "create-vedats",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold Workbench UI tests for VS Code extensions",
   "license": "MIT",
   "repository": {

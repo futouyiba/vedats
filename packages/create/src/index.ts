@@ -89,15 +89,13 @@ function updateGitignore(targetDir: string): void {
   const entry = '**/artifacts/vscode-ui/';
 
   if (!fs.existsSync(gitignorePath)) {
-    fs.writeFileSync(gitignorePath, `${entry}
+    fs.writeFileSync(gitignorePath, entry + '\n', 'utf8');
     return;
   }
 
   const content = fs.readFileSync(gitignorePath, 'utf8');
   if (!content.includes(entry)) {
-    const updated = `${content.trimEnd()}
-
-${entry}
+    const updated = `${content.trimEnd()}\n\n${entry}\n`;
     fs.writeFileSync(gitignorePath, updated, 'utf8');
   }
 }
