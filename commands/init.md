@@ -1,5 +1,7 @@
 # /vscode-ui-test-init
 
+- [init.zh-CN.md](init.zh-CN.md)
+
 Scaffold Workbench UI tests for a VS Code extension repo.
 
 Steps:

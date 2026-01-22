@@ -1,5 +1,7 @@
 # Workflows
 
+- [workflows.zh-CN.md](workflows.zh-CN.md)
+
 ## Init
 
 ```bash

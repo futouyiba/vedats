@@ -12,6 +12,15 @@ to add Workbench UI automation for VS Code extensions.
 
 Claude Code skill lives under `skills/vscode-ui-test/`.
 
+## Features & Usage
+
+- [FEATURES.md](FEATURES.md) | [FEATURES.zh-CN.md](FEATURES.zh-CN.md)
+
+## Chinese Docs
+
+- [README.zh-CN.md](README.zh-CN.md)
+- [OPERATIONS.zh-CN.md](OPERATIONS.zh-CN.md)
+
 ## Install Skill (Claude Code)
 
 ```bash

@@ -1,5 +1,7 @@
 # VEDATS Operations Notes
 
+- [OPERATIONS.zh-CN.md](OPERATIONS.zh-CN.md)
+
 ## Repo
 
 - GitHub: https://github.com/futouyiba/vedats

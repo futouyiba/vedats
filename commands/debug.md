@@ -1,5 +1,7 @@
 # /vscode-ui-test-debug
 
+- [debug.zh-CN.md](debug.zh-CN.md)
+
 Run headed UI tests with extra diagnostics.
 
 Steps:

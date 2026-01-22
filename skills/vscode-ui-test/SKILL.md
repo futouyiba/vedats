@@ -6,6 +6,8 @@ version: 0.1.0
 
 # VEDATS (VS Code Extension Debugging and Testing Skills)
 
+- [SKILL.zh-CN.md](SKILL.zh-CN.md)
+
 Use this skill to scaffold, run, and debug Workbench UI tests for VS Code extensions with artifact-first diagnostics. The workflow is powered by WebdriverIO and wdio-vscode-service, with a shared harness that records steps, screenshots, and failure dumps.
 
 ## What This Skill Delivers

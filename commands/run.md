@@ -1,5 +1,7 @@
 # /vscode-ui-test-run
 
+- [run.zh-CN.md](run.zh-CN.md)
+
 Run Workbench UI tests and return evidence.
 
 Steps:
