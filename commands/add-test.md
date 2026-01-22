@@ -1,6 +1,6 @@
 # /vscode-ui-test-add-test
 
-- [add-test.zh-CN.md](add-test.zh-CN.md)
+English | [简体中文](add-test.zh-CN.md)
 
 Add a new Workbench UI test using the DSL.
 

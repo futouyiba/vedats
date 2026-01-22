@@ -1,6 +1,6 @@
 # /vscode-ui-test-debug
 
-- [debug.zh-CN.md](debug.zh-CN.md)
+English | [简体中文](debug.zh-CN.md)
 
 Run headed UI tests with extra diagnostics.
 

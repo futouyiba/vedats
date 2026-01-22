@@ -1,11 +1,11 @@
 # Workflows
 
-- [workflows.zh-CN.md](workflows.zh-CN.md)
+English | [简体中文](workflows.zh-CN.md)
 
 ## Init
 
 ```bash
-npx create-vscode-ui-test@latest
+npx create-vedats@latest
 ```
 
 ## Run

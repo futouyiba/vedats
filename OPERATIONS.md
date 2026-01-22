@@ -1,64 +1,26 @@
-# VEDATS Operations Notes
+# VEDATS Operations
 
-- [OPERATIONS.zh-CN.md](OPERATIONS.zh-CN.md)
+English | [简体中文](OPERATIONS.zh-CN.md)
 
 ## Repo
 
 - GitHub: https://github.com/futouyiba/vedats
-- Branch: `main`
 
-## Claude Code Install
+## Publish (npm)
 
-```bash
-cc --plugin-dir /path/to/vedats
-```
+Packages:
 
-## Packages (npm)
+- `vedats-harness`
+- `create-vedats`
 
-- `vedats-harness@0.1.0`
-- `create-vedats@0.1.1`
-
-## Publish Commands
+Publish:
 
 ```bash
 npm publish -w vedats-harness
 npm publish -w create-vedats
 ```
 
-## CLI Quick Start
+Notes:
 
-```bash
-npx create-vedats@latest
-```
-
-## UI Test Run
-
-```bash
-npm run test:ui
-```
-
-Artifacts live under:
-
-```
-artifacts/vscode-ui/<runId>/
-```
-
-Required contents:
-
-- `steps.json`
-- `screenshots/`
-- `logs/`
-- `ui-dump/diagnostics.json`
-
-## CI Workflow Template
-
-Template path:
-
-- `packages/create/templates/.github/workflows/ui-tests.yml`
-
-OS matrix: Ubuntu, Windows, macOS.
-
-## Known Requirements
-
-- npm publish requires auth (token or OTP with 2FA enabled).
-- `create-vedats` requires build before publish; `dist/index.js` must exist.
+- npm may require 2FA/OTP or a token that can publish.
+- `create-vedats` must be built before publish so `dist/index.js` exists.

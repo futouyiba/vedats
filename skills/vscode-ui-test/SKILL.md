@@ -1,14 +1,14 @@
 ---
 name: vedats
-description: This skill should be used when the user wants to add, run, debug, or distribute Workbench UI tests for VS Code extensions with artifact-first diagnostics ("add UI tests", "wdio-vscode-service", "extension UI automation", "create vscode ui test", "debug extension UI tests").
+description: This skill should be used when the user wants to add, run, debug, or distribute Workbench UI tests for VS Code extensions using VEDATS (VS Code Extension Debugging and Testing Skills) with artifact-first diagnostics ("add UI tests", "wdio-vscode-service", "extension UI automation", "create vscode ui test", "debug extension UI tests").
 version: 0.1.0
 ---
 
 # VEDATS (VS Code Extension Debugging and Testing Skills)
 
-- [SKILL.zh-CN.md](SKILL.zh-CN.md)
+English | [简体中文](SKILL.zh-CN.md)
 
-Use this skill to scaffold, run, and debug Workbench UI tests for VS Code extensions with artifact-first diagnostics. The workflow is powered by WebdriverIO and wdio-vscode-service, with a shared harness that records steps, screenshots, and failure dumps.
+Use this skill to scaffold, run, and debug Workbench UI tests for VS Code extensions with artifact-first diagnostics.
 
 ## What This Skill Delivers
 
@@ -40,8 +40,7 @@ The artifacts directory must include:
 - `logs/`
 - `ui-dump/diagnostics.json`
 
-## Notes
+## References
 
-- Avoid raw CSS selectors or sleeps in specs.
-- Prefer command palette or VS Code API for actions.
-- Always report the latest artifacts path after running tests.
+- [references/workflows.md](references/workflows.md) | [references/workflows.zh-CN.md](references/workflows.zh-CN.md)
+- [references/dsl.md](references/dsl.md) | [references/dsl.zh-CN.md](references/dsl.zh-CN.md)

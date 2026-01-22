@@ -1,6 +1,6 @@
 # /vscode-ui-test-run
 
-- [run.zh-CN.md](run.zh-CN.md)
+English | [简体中文](run.zh-CN.md)
 
 Run Workbench UI tests and return evidence.
 

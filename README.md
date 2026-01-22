@@ -1,48 +1,55 @@
-# VS Code UI Test Skill
+# VEDATS
 
-This repository provides a Claude Code skill workflow (VEDATS: VS Code Extension Debugging and Testing Skills) and a reusable CLI + harness
-to add Workbench UI automation for VS Code extensions.
+English | [简体中文](README.zh-CN.md)
 
-## Packages
+VEDATS = VS Code Extension Debugging and Testing Skills.
 
-- `vscode-ui-test-harness`: shared DSL + artifacts + diagnostics
-- `create-vscode-ui-test`: CLI scaffolding tool
+This repo provides:
 
-## Skill
+- A Claude Code plugin skill for extension UI testing workflows
+- A distributable scaffolding CLI (`create-vedats`)
+- A reusable harness library (`vedats-harness`) for artifact-first diagnostics
 
-Claude Code skill lives under `skills/vscode-ui-test/`.
-
-## Features & Usage
-
-- [FEATURES.md](FEATURES.md) | [FEATURES.zh-CN.md](FEATURES.zh-CN.md)
-
-## Chinese Docs
-
-- [README.zh-CN.md](README.zh-CN.md)
-- [OPERATIONS.zh-CN.md](OPERATIONS.zh-CN.md)
-
-## Install Skill (Claude Code)
+## Install (Claude Code)
 
 ```bash
-cc --plugin-dir /path/to/vscode-ui-test-skill
+cc --plugin-dir /path/to/vedats
 ```
 
 ## Quick Start (CLI)
+
+Run this in your VS Code extension repo:
 
 ```bash
 npx create-vedats@latest
 ```
 
-## Publish (npm)
-
-Update repository URLs in:
-
-- `packages/harness/package.json`
-- `packages/create/package.json`
-
-Then publish:
+Then:
 
 ```bash
-npm publish -w vedats-harness
-npm publish -w create-vedats
+npm run test:ui
 ```
+
+Artifacts:
+
+```
+artifacts/vscode-ui/<runId>/
+```
+
+## Docs
+
+- [FEATURES.md](FEATURES.md) | [FEATURES.zh-CN.md](FEATURES.zh-CN.md)
+- [OPERATIONS.md](OPERATIONS.md) | [OPERATIONS.zh-CN.md](OPERATIONS.zh-CN.md)
+- Skill: [skills/vscode-ui-test/SKILL.md](skills/vscode-ui-test/SKILL.md) | [skills/vscode-ui-test/SKILL.zh-CN.md](skills/vscode-ui-test/SKILL.zh-CN.md)
+
+## NPM Packages
+
+- `vedats-harness`
+- `create-vedats`
+
+## Commands (in Claude Code)
+
+- [commands/init.md](commands/init.md) | [commands/init.zh-CN.md](commands/init.zh-CN.md)
+- [commands/run.md](commands/run.md) | [commands/run.zh-CN.md](commands/run.zh-CN.md)
+- [commands/debug.md](commands/debug.md) | [commands/debug.zh-CN.md](commands/debug.zh-CN.md)
+- [commands/add-test.md](commands/add-test.md) | [commands/add-test.zh-CN.md](commands/add-test.zh-CN.md)
